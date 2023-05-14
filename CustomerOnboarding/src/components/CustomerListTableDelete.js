@@ -3,7 +3,7 @@ import { Table, Select, Button, Popconfirm } from 'antd';
 
 const { Option } = Select;
 
-const CustomerListTable = ({ customers, updateOnboardingStatus, deleteCustomer }) => {
+const CustomerListTableDelete = ({ customers, updateOnboardingStatus, deleteCustomer }) => {
   const handleChangeStatus = (customerId, status) => {
     const customerIndex = customers.findIndex(
       (customer) => customer.id === customerId
@@ -67,4 +67,4 @@ const CustomerListTable = ({ customers, updateOnboardingStatus, deleteCustomer }
   return (<Table dataSource={customers} columns={columns} pagination={false}/>);
 };
 
-export default CustomerListTable;
+export default CustomerListTableDelete;
