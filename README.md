@@ -40,14 +40,14 @@ Solution to this requirement: CustomerListNewOnboarding.js, SummaryNewOnboarding
 
 Solution to this requirement: AppLoginHook.js, useAuthentication.js
 
-9. Add a custom hook for the customer management logic - Medium
+10. Add a custom hook for the customer management logic - Medium
 
 Solution to this requirement: AppCustomerHook.js, useCustomerData.js
 
-10. Implement Redux to manage the state of the customers - Hard
+11. Implement Redux to manage the state of the customers - Hard
 
 Solution to this requirement: TBD
 
-11. Implement Redux Toolkit's slice feature to manage the state of a user authentication feature - Hard
+12. Implement Redux Toolkit's slice feature to manage the state of a user authentication feature - Hard
 
 Solution to this requirement: TBD
